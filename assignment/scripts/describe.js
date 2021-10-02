@@ -1,3 +1,4 @@
+
 // WHAT IS THIS EVEN DOING?
 
 // For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening.
@@ -27,7 +28,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We define a variable called name and assign it a name called Dane.
-// Then we check name if it is exactly the data type and value of the name Mary. If the name data type and value
+// Then we check name if is exactly the data type and value of the name Mary. If the name data type and value
 // is true, it will then console.log's Hi Mary.  However if the name data type and value
 // is false then it will console.log How do you do
 //
@@ -41,12 +42,12 @@ if (name === 'Mary') {
 } else {
   console.log('How do you do?');
 }
-
-
 */
 
+
+
 // 2. WRITE YOUR DESCRIPTION HERE
-// We define a variable called secret and also create a variable called code and assign it a number value of 123.
+// We define a variable called secret and also define a variable called code and assign code a number value of 123.
 // Then we check to see if code is exactly the data type and value of number value of 123. If it is the variable secret
 // will be assigned a string 'super' and also perform  multiplication operation using the variable code multiplying by two, which equals 246.
 // The last conditional checks if code is greater than 250 and if it is will will assign the variable secret to duper.
@@ -68,14 +69,17 @@ if (code > 250) {
 }
 
 console.log(secret)
-
 */
 
+
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We define variable called isStudent and assign it a value of true.
+// We define two variables one called age with a number value of 34 and another called zip with a number value of 55407.
+// Then we check to see if the variable isStudent exactly matches true and also if zip is greater than 80000. If so we
+// console.log the value 'You're a student on the West Coast!' .  If the first conditional does not match, we will goto the next conditional which will check
+// if the variable isStudent exactly matches false or ages is less than thirty, if this is true we will console log 'What are your hobbies'. If the second conditional is not valid.
+// We then check if variable isStudent exactly matches true and if so consol.log 'Weldome to Prime'. Lastly if none of
+// these conditional checks are valid then we just console.log How about the weather.
 
 //CODE
 /*
@@ -132,22 +136,32 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne is not set to 'red', instruction say it is set to blue'
+// Should be let colorOne = 'blue';
 let colorOne = 'red';
+
+// FIX - colorTwo is not set to 'blue', instruction say it is set to red'
+// Should be let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+
+// FIX - missing variable assignment for colorTwo, instruction ask to set it to purple'. If the conditional check is true
+// Should be colorTwo = 'purple';
   colorOne = 'purple';
-}
-*/
+}*/
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4
 // -- they are so we console.log 'throw away the food!'
-
 /*
+
 let temp = 40;
 const time = 4;
+
+//FIX - The || means or, the instructions ask for 'and' which is the &&. Instructions mention 'temp is higher than 39 and if time is greater or equal to  4'
+// Should be (temp > 39 && time >= 4)
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -157,10 +171,13 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
-
 /*
+
 let age = 21;
 const minAge = 21;
+
+// FIX - Instruction mentioned that we are checking age if it greater then or equal, not less than and equal minAge
+// Should be - (age >= minAge)
 
 if(minAge <= age) {
   console.log('no entry');
